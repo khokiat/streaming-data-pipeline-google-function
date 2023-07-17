@@ -1,7 +1,7 @@
 # streaming-data-pipeline-google-function
 ## Description
 In this project, Cloud Functions will stream and insert data to BigQuery (with Cloud Pub/Sub trigger). the function will make a REST API call to get a data and insert to BigQuery.
-
+![image](https://github.com/khokiat/streaming-data-pipeline-google-function/blob/main/Picture/Pipeline%20architecture.jpg?raw=true)
 
 ## Prerequisition&tool
 1. **Cloud scheduler**
@@ -24,4 +24,4 @@ url = "https://randomuser.me/api/"
 4. Deploy streaming code into Cloud function.
 5. Compose cloud scheduler to control schudule and trigger pipeline by setting  pub/sub trigger matched to trigger that we've set in cloud function. 
 
-![image](https://github.com/khokiat/streaming-data-pipeline-google-function/blob/main/Picture/Pipeline%20architecture.jpg?raw=true)
+![image](https://github.com/khokiat/streaming-data-pipeline-google-function/blob/main/Picture/Image%2017-7-2566%20BE%20at%2015.25.jpg?raw=true)
